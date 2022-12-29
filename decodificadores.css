@@ -1,0 +1,40 @@
+/*Responsividade para tablets*/
+@media (min-width: 482px) and (max-width: 767px) {
+
+    .section {
+      text-align: left;
+      position: relative;
+        width: 768px;
+        height: 1174px;
+    }
+  
+    .main {
+      width: 440px;
+      height: 400px;
+      margin-left: 1rem;
+    }
+  }
+  
+  /*Responsividade para telas pequenas, laptops*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section {
+      text-align: left;
+    }
+  
+    .main{
+      width: 700px;
+      height: 400px;
+      margin-left: 1rem;
+    }
+  }
+/*responsividade celular*/  
+@media (min-width:375px) and (max-width: 933px){
+
+    .section{
+        text-align: left;
+        position: relative;
+        width: 375px;
+        height: 933px;
+    }
+    
+}
