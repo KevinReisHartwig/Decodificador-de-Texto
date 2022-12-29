@@ -9,7 +9,7 @@ Sprint 01: Construa um decodificador de texto com Javascript.</p>
 <br>
 
 <p align="center">
-  <img alt="Imagem MIDI" src="MIDI.jpeg" width="100%">
+  <img alt="Imagem codificador" src="Codificador.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
