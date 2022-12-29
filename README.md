@@ -1,9 +1,10 @@
 <h1 align="center"> Decodificador de Texto </h1>
 
 <p align="center">
-Challenge ONE-Iniciante em Programação.
-Sprint 01: Construa um decodificador de texto com Javascript.
-</p>
+Challenge ONE-Iniciante em Programação.</p>
+<p align="center">
+Sprint 01: Construa um decodificador de texto com Javascript.</p>
+
 
 <br>
 
