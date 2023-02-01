@@ -38,6 +38,20 @@ textarea{
         
 }
 
+.placeholder{
+    position: absolute;
+    width: 717px;
+    height: 58px;
+    left: 240px;
+    top: 168px;
+    
+    background: rgb(0 0 0 / 0%);
+    flex: 1;
+    resize: none;
+    border: none;
+    outline: none;
+} 
+
 .textmain{
     /* Digite seu texto */
 
