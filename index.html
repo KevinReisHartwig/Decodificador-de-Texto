@@ -12,8 +12,7 @@
         
     </head>
 
-    <body>
-           
+    <body>          
         <header>
             <div class="caixa">
                 <h1>
@@ -35,9 +34,7 @@
                     
                                 <label class="textmain">
                                     <textarea class="textarea" 
-                                    rows="10" cols="30" id="textmain" placeholder="Digite seu texto"></textarea>
-                                                                                                                                       
-                             </div>
+                                    rows="10" cols="30" id="textmain" placeholder="Digite seu texto"></textarea>                                                                                                                                                                   </div>
                     </label>
                     <div class="menor">
                         <small>
@@ -50,25 +47,23 @@
                                 <rect width="16" height="16" fill="white"/>
                                 </clipPath>
                                 </defs>
-                                </svg>
-                             
+                                </svg>                            
                             Apenas letras minúsculas e sem acento
                             
                         </small>
 
                     </div>
                     <div class="buttons">
-                       <button class="crip">
+                        <button class="crip">
                             <p class="escritacrip">Criptografar</p>
-                       </button> 
-                       <button class="descrip">                        
+                        </button> 
+                        <button class="descrip">                        
                             <p class="escritadescrip">Descriptografar</p>
-                       </button>                              
-                    </div>
-                                                               
+                        </button>                              
+                    </div>                                                              
                     <div class="fundoimagetext">
                             
-                       <div class="testando" id="myDiv">            
+                        <div class="testando" id="myDiv">            
                             <div clas="fundoimage">
                                 <img src="image/fundoImage.svg">        
                             </div>
@@ -82,7 +77,6 @@
                             <textarea readonly
                                 class="outputText"
                             ></textarea>
-                          
                             
                             <button class="copy">  
                                 
@@ -96,7 +90,19 @@
             </section>
             
         </main>
-        <script src="javascript.js"></script>
+        <script>
+            const outputElement = document.getElementById('outputText');
+            const outputImageElement = document.getElementById('myDiv');
+
+            outputElement.addEventListener('change', () => {
+            if (outputElement.value === '') {
+                outputImageElement.style.display = 'block';
+            } else {
+                outputImageElement.style.display = 'none';
+            }
+};     
+        </script>
+        <script src="javascript.js"></script>     
         
     </body>
 </html>

@@ -16,6 +16,8 @@ const App = {
       o: 'ober',
       u: 'ufat',
     },
+
+
   
     //funcao encriptar
     crip(text) {
@@ -71,7 +73,11 @@ const App = {
     },
     //remover a imagem e o texto deixando só o botão de copiar e a o descrit e encript
     remover(){
-      document.getElementById("myDiv").style.display = "none";
+      if(App.output.value == ''){
+        document.getElementById("myDiv").style.display = "block";
+      }else{
+        document.getElementById("myDiv").style.display = "none";
+      }
       
     },
 
@@ -115,3 +121,4 @@ const App = {
   
   //carrega o script dps que carregar por completo a página.
   window.onload = App.iniciar();
+
